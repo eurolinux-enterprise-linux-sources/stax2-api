@@ -1,6 +1,6 @@
 Name:             stax2-api
 Version:          3.1.1
-Release:          10%{?dist}
+Release:          9%{?dist}
 Summary:          Experimental API extending basic StAX implementation
 License:          BSD
 Group:            Development/Libraries
@@ -47,9 +47,6 @@ cp %{SOURCE1} pom.xml
 %files javadoc -f .mfiles-javadoc
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.1.1-10
-- Mass rebuild 2013-12-27
-
 * Tue Aug 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 3.1.1-9
 - Migrate away from mvn-rpmbuild
 
